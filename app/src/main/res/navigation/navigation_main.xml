@@ -2,11 +2,10 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/navigation_main"
-    android:label="Jokes"
     app:startDestination="@id/jokesFragment">
 
     <fragment
         android:id="@+id/jokesFragment"
         android:name="be.ehb.recyclerdemo.view.JokesFragment"
-        android:label="JokesFragment" />
+        android:label="@string/app_name" />
 </navigation>

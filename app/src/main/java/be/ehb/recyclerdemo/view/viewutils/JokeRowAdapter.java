@@ -28,8 +28,8 @@ public class JokeRowAdapter extends RecyclerView.Adapter<JokeRowAdapter.JokeView
 
     private ArrayList<Joke> jokeItems;
 
-    public JokeRowAdapter(ArrayList<Joke> jokeItems) {
-        this.jokeItems = jokeItems;
+    public JokeRowAdapter() {
+        this.jokeItems = new ArrayList<>();
     }
 
     public void newItems(ArrayList<Joke> newItems){
